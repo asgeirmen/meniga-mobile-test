@@ -15,7 +15,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.asgeiroa.menigamobiletest",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "APP_NAME needs to use Face ID / Touch ID to authenticate you"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +35,7 @@
         "projectId": "1ebc2b94-97be-45a9-b67c-f029b22e397c"
       }
     },
-    "owner": "asgeiroa"
+    "owner": "asgeiroa",
+    "scheme": "menigaisdev"
   }
 }
